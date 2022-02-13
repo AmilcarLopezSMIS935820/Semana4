@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Long title='Conversor de unidades'/> 
+    <Long title='Conversor de longitud' btn1='Convertir' btn2='Limpiar'/> 
   </div>
 </template>
 
