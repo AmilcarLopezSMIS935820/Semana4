@@ -1,19 +1,25 @@
 <template>
   <div id="app">
     <Long title='Conversor de longitud' btn1='Convertir' btn2='Limpiar'/> 
+    <br>
+    <masa title='Conversor de masa' />
   </div>
 </template>
 
 <script>
 
 import Long from './components/long.vue'
+import Masa from './components/masa.vue'
+
 
 export default {
   name: 'App',
   components: {
-    Long
+    Long,
+    Masa
   }
-}
+
+    }
 </script>
 
 <style>
