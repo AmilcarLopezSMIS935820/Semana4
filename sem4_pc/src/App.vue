@@ -4,6 +4,8 @@
     <br>
     <masa title='Conversor de masa' /><br>
     <Almacenamiento title='Conversor de Almacenamiento'/>
+    <br>
+    <monedas title='Coversor de monedas'/>
   </div>
 </template>
 
@@ -12,6 +14,7 @@
 import Long from './components/long.vue'
 import Masa from './components/masa.vue'
 import Almacenamiento from './components/Almacenamiento.vue'
+import monedas from './components/monedas.vue'
 
 
 export default {
@@ -19,7 +22,8 @@ export default {
   components: {
     Long,
     Masa,
-    Almacenamiento
+    Almacenamiento,
+    monedas
   }
 
     }
