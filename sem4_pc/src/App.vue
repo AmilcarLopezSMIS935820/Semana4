@@ -1,11 +1,13 @@
 <template>
   <div id="app">
     <Long title='Conversor de longitud' btn1='Convertir' btn2='Limpiar'/> 
-    <br>
-    <masa title='Conversor de masa' /><br>
+    <br><br>
+    <masa title='Conversor de masa' /><br><br>
     <Almacenamiento title='Conversor de Almacenamiento'/>
-    <br>
-    <monedas title='Coversor de monedas'/>
+    <br><br>
+    <monedas title='Conversor de monedas'/>
+    <br><br>
+    <Tiempo title='Conversor de tiempo'/>
   </div>
 </template>
 
@@ -15,6 +17,7 @@ import Long from './components/long.vue'
 import Masa from './components/masa.vue'
 import Almacenamiento from './components/Almacenamiento.vue'
 import monedas from './components/monedas.vue'
+import Tiempo from './components/Tiempo.vue'
 
 
 export default {
@@ -23,7 +26,8 @@ export default {
     Long,
     Masa,
     Almacenamiento,
-    monedas
+    monedas,
+    Tiempo
   }
 
     }
