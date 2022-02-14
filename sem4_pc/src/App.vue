@@ -2,7 +2,8 @@
   <div id="app">
     <Long title='Conversor de longitud' btn1='Convertir' btn2='Limpiar'/> 
     <br>
-    <masa title='Conversor de masa' />
+    <masa title='Conversor de masa' /><br>
+    <Almacenamiento title='Conversor de Almacenamiento'/>
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 
 import Long from './components/long.vue'
 import Masa from './components/masa.vue'
+import Almacenamiento from './components/Almacenamiento.vue'
 
 
 export default {
   name: 'App',
   components: {
     Long,
-    Masa
+    Masa,
+    Almacenamiento
   }
 
     }
